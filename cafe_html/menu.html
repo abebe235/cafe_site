@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>cafe・ド・リシャス　メニュー</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="slider-pro.min.css" />
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/jquery.sliderPro.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1 id="TOP">
+			<a href="index.html">
+				<figure class="siteLogo">
+					<img src="img/header_logo.png" alt="cafe・ド・リシャス_シンボルマーク">
+				</figure>
+			</a>
+			<figure class="siteTitle">
+				<a href="index.html">
+                        <img src="img/header_title.png" alt="cafe・ド・リシャス">
+                    </a>
+			</figure>
+		</h1>
+		<div class="btn-language btn-selectBox">
+			<select name="言語" required>
+                    <option value="" hidden>language</option>
+                    <option value="ja">日本語</option>
+                    <option value="en">English</option>
+                    <option value="zh">中文(繁體) </option>
+                    <option value="ar">ภาษาไทย</option>
+                </select>
+		</div>
+	</header>
+
+	<nav>
+		<ul class="siteMenu">
+			<li class="siteMenu-item"><a href="index.html#slider1">NEWS</a></li>
+			<li class="siteMenu-item"><a href="index.html#shopImg">店舗情報</a></li>
+			<li class="siteMenu-item"><a href="index.html#Contents">メニュー</a></li>
+			<li class="siteMenu-item"><a href="index.html#Consept">コンセプト</a></li>
+			<li class="siteMenu-item"><a href="index.html">TOP</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<div class="backBtn-item">
+			<p>
+				<a href="#TOP">
+                        <img src="img/back_btn.png" alt="TOPへ戻る">
+                    </a>
+			</p>
+			<p>上へ戻る</p>
+		</div>
+
+		<article class="Contents" id="Contents">
+			<h2 class="select-menu">
+				<a href="#sweets">SWEETS</a> / <a href="#drinks">DRINKS</a>
+			</h2>
+			
+			<section>
+			<h3 id="sweets">
+				SWEETS
+			</h3>
+				<ul class="menu-info" id="choco_cake">
+					<li>
+						<img src="img/choco_cake.png" alt="チョコレートケーキ">
+					</li>
+					<li class="menu-column">
+						<p class="menuImgTitle">【季節限定】&nbsp;チョコレートケーキ</p>
+						<p class="menuPrice">600yen（税込）</p>
+						<p>チョコレート好きにはたまらない、cafe・ド・リシャスのチョコレートケーキ！</p>
+						<p>自分へのご褒美にはもちろん、恋人や家族と一緒に食べるのもgood♪</p>
+					</li>
+				</ul>
+				<ul class="menu-info" id="fruits_cake">
+					<li>
+						<img src="img/fruits_cake.png" alt="プチケーキシリーズ">
+					</li>
+					<li li class="menu-column">
+						<p class="menuImgTitle">プチケーキシリーズ</p>
+						<p class="menuPrice">各300yen（税込）</p>
+						<p>ひとくちサイズが嬉しいフルーツケーキ。</p>
+						<p>小さいのに口いっぱいに広がる、とれたての果物の風味をお楽しみください♪</p>
+					</li>
+				</ul>
+				<ul class="menu-info" id="macaron">
+					<li>
+						<img src="img/macaron.png" alt="マカロン詰め合わせ">
+					</li>
+					<li li class="menu-column">
+						<p class="menuImgTitle">マカロン詰め合わせ</p>
+						<p class="menuPrice">450yen（税込）</p>
+						<p>可愛らしい見た目が大人気のcafe・ド・クリエのマカロンをラッピング。</p>
+						<p>お店で食べたあの味がお持ち帰りできます♪</p>
+					</li>
+				</ul>
+			</section>
+			
+			<section>
+			<h3 id="drinks">DRINKS</h3>
+				<ul class="menu-info" id="coffee">
+					<li>
+						<img src="img/coffee.png" alt="オリジナルコーヒー">
+					</li>
+					<li li class="menu-column">
+						<p class="menuImgTitle">オリジナルコーヒー<br>(HOT/ICE)</p>
+						<p class="menuPrice">320yen（税込）</p>
+						<p>ここでしか飲めない、cafe・ド・クリエオリジナルブレンドコーヒー。</p>
+						<p>スタッフが一杯一杯、心を込めてお淹れしてます。</p>
+					</li>
+				</ul>
+				<ul class="menu-info" id="ginger">
+					<li>
+						<img src="img/ginger_tea.png" alt="ジンジャーティー">
+					</li>
+					<li li class="menu-column">
+						<p class="menuImgTitle">ジンジャーティー<br>(HOT only)</p>
+						<p class="menuPrice">320yen（税込）</p>
+						<p>寒い日に特におすすめなジンジャーティー。</p>
+						<p>生姜のピリリとした辛さが、心まで温めてくれます。</p>
+					</li>
+				</ul>
+				<ul class="menu-info" id="cocoa">
+					<li>
+						<img src="img/cocoa.png" alt="ココア">
+					</li>
+					<li li class="menu-column">
+						<p class="menuImgTitle">ココア<br>(HOT/ICE)</p>
+						<p class="menuPrice">350yen（税込）</p>
+						<p>ミルクたっぷりに作ったココアは甘党のあなたにピッタリ♪</p>
+						<p>疲れた体に優しい甘さが染み渡ります。</p>
+					</li>
+				</ul>
+			</section>
+		</article>
+	</main>
+
+	<footer>
+		<ul class="snsBtn">
+			<li>
+				<a href="＃"><img src="img/t_btn.png" alt="Twitter"></a>
+			</li>
+			<li>
+				<a href="＃"><img src="img/f_btn.png" alt="facebook"></a>
+			</li>
+			<li>
+				<a href="＃">
+                        <img src="img/i_btn.png" alt="Instagram"></a>
+			</li>
+		</ul>
+		<p class="Copyright">
+			<small>&copy;2018 &emsp;cafe・ド・リシャス株式会社 &emsp;All rights reserved.</small>
+		</p>
+	</footer>
+</body>
+
+</html>
